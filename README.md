@@ -4,7 +4,7 @@
 
 [![ClawHub Registry](https://img.shields.io/badge/registry-ClawHub-blue)](https://clawhub.ai)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![Skills](https://img.shields.io/badge/skills-11-orange)](#skills)
+[![Skills](https://img.shields.io/badge/skills-12-orange)](#skills)
 
 ---
 
@@ -18,6 +18,7 @@
   - [Image Generation](#image-generation)
   - [Video Generation](#video-generation)
   - [Tibetan Buddhist Content](#tibetan-buddhist-content)
+  - [Data & Productivity](#data--productivity)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -87,6 +88,12 @@ This repository hosts production-ready OpenClaw skills published to the [ClawHub
 |---|---|---|
 | [`tibetan-buddhist-product-article-generator`](./tibetan-buddhist-product-article-generator/SKILL.md) | 1.1.0 | Generate a web-researched ~1000-word Chinese article on a Tibetan Buddhist product plus a hero image and per-section PNG images |
 | [`tibetan-cinematic-video`](./tibetan-cinematic-video/SKILL.md) | 1.1.0 | Generate an authentic Tibetan cinematic video (9:16, Google Veo) from an input image and exactly 3 Chinese theme words; enforces cultural guardrails (monasteries, prayer wheels, thangka — no Western fantasy) |
+
+### Data & Productivity
+
+| Skill | Version | Description |
+|---|---|---|
+| [`twitter-bookmarks-exporter`](./twitter-bookmarks-exporter/SKILL.md) | 1.2.0 | Export X/Twitter bookmarks into individual Markdown files; handles multi-page concatenated JSON, full text for regular/note/article tweets, t.co URL expansion, quoted tweets, media links, and engagement stats |
 
 ---
 
