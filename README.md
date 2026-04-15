@@ -1,4 +1,4 @@
-# openclaw-custom-skills
+# custom-skills-for-openclaw-claude
 
 > A curated collection of custom skills for **OpenClaw** and **Claude Code** — covering content creation, multilingual blog publishing, AI-powered media generation, and productivity automation.
 
@@ -136,8 +136,8 @@ openclaw skill install blog-polish-zhcn
 ### OpenClaw skills — from this repository (local)
 
 ```bash
-git clone https://github.com/negtivSpaz/openclaw-custom-skills.git
-cd openclaw-custom-skills
+git clone https://github.com/negtivSpaz/custom-skills-for-openclaw-claude.git
+cd custom-skills-for-openclaw-claude
 
 # Install a skill from a local path
 openclaw skill install ./blog-polish-zhcn
@@ -146,13 +146,13 @@ openclaw skill install ./blog-polish-zhcn
 ### Claude Code commands
 
 ```bash
-git clone https://github.com/negtivSpaz/openclaw-custom-skills.git
+git clone https://github.com/negtivSpaz/custom-skills-for-openclaw-claude.git
 
 # Copy the .claude folder into your project
-cp -r openclaw-custom-skills/.claude /your/project/
+cp -r custom-skills-for-openclaw-claude/.claude /your/project/
 
 # Or use all commands globally
-cp -r openclaw-custom-skills/.claude ~/.claude
+cp -r custom-skills-for-openclaw-claude/.claude ~/.claude
 ```
 
 Then inside a Claude Code session, type `/export-twitter-bookmarks` (or whichever command) to invoke it.
